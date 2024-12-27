@@ -1,0 +1,43 @@
+{
+    "NavBar": {
+        "status": "Developer",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "lang": "Change language",
+        "socials": "Socials"
+    },
+    "HomePage": {
+        "title": "Home",
+        "subtitle": "Hello there! I'm Gauthier",
+        "description": "I'm a full-stack developer that loves building products and web apps that can impact millions of lives",
+        "working": "What I've been working on",
+        "description2": "I'm a senior software engineer with 7 years of experience building scalable web apps that are performance optimized and good looking."
+    },
+    "AboutPage": {
+        "title": "About",
+        "subtitle": "About Me",
+        "description": "I'm a full-stack developer that loves building products and web apps that can impact millions of lives. I'm currently working on a few projects that I'm really excited about. I'm always looking for new opportunities to work on projects that can make a difference in the world.",
+        "contact": "Contact me"
+    },
+    "ProjectsPage": {
+        "title": "Projects",
+        "subtitle": "What I've been working on",
+        "description": "I've worked on a few projects that I'm really proud of. Here are a few of them.",
+        "contact": "Contact me"
+    },
+    "Stack": {
+        "title": "Tech Stack"
+    },
+    "Footer": {
+        "build": "Built with",
+        "by": "by"
+    },
+    "project-1": {
+        "description": "Ecommerce application for the end-of-course project."
+    },
+    "project-2": {
+        "description": "NextJs boilerplate to quickly start your next project."
+    }
+}
