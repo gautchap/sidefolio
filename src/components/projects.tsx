@@ -32,7 +32,7 @@ export const Projects = async ({ product, index }: { product: Project; index: nu
                 <div className="flex flex-col justify-between">
                     <div>
                         <div className="flex items-baseline gap-2">
-                            <Heading as="h4" className="text-lg font-black md:text-lg lg:text-lg">
+                            <Heading as="h2" className="text-lg font-black md:text-lg lg:text-lg">
                                 {product.title}
                             </Heading>
                             {product.repo ? <Github className="size-4 text-muted" /> : null}
