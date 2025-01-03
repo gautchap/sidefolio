@@ -6,11 +6,12 @@ import { Heading } from "@/components/ui/heading";
 import { Paragraph } from "@/components/ui/paragraph";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { Github } from "lucide-react";
+import { Github, ArrowRight } from "lucide-react";
 
 export const SingleProject = ({ product }: { product: Project }) => {
     const [activeImage, setActiveImage] = useState<StaticImageData | string>(product.thumbnail);
     const t = useTranslations(product.id);
+    const tp = useTranslations("ProjectsPage");
     return (
         <div className="py-10">
             <motion.div
@@ -75,30 +76,15 @@ export const SingleProject = ({ product }: { product: Project }) => {
                     <Paragraph className="mt-4 max-w-xl">{t("description")}</Paragraph>
                 </div>
             ) : null}
-            <div className="prose prose-sm md:prose-base max-w-none text-neutral-600">{product?.content}</div>
+            <div className="prose prose-sm max-w-none text-neutral-600 md:prose-base">{product?.content}</div>
 
             <a
                 href={product.href}
                 target="__blank"
-                className="group/button mt-auto inline-flex origin-left items-center gap-1 rounded-full bg-gray-800 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-black/20 ring-gray-50/60 ring-offset-gray-900 transition hover:scale-105 focus:outline-none focus-visible:ring-1 focus-visible:ring-offset-2 group-hover/button:scale-105 group-hover/button:bg-gray-50/15 sm:backdrop-blur-sm"
+                className="group inline-flex origin-left transform-gpu items-center justify-around gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-black/20 transition-all hover:scale-105"
             >
-                Live Preview
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="size-3.5 transition-transform group-hover:translate-x-0.5"
-                >
-                    <path d="M5 12l14 0"></path>
-                    <path d="M13 18l6 -6"></path>
-                    <path d="M13 6l6 6"></path>
-                </svg>
+                <span>{tp("preview")}</span>
+                <ArrowRight className="size-3.5 transform-gpu transition-all group-hover:translate-x-1" />
             </a>
         </div>
     );

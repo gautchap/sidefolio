@@ -30,7 +30,7 @@ export default function LangToggle() {
         <div className="fixed bottom-5 right-7 inline-block">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                    <Button title={t("lang")} className="p-2">
+                    <Button title={t("lang")} className="bg-gray-800 p-2 hover:bg-gray-900">
                         <Languages className="size-4" />
                         <span className="sr-only">{t("lang")}</span>
                     </Button>
