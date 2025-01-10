@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import plugin from "tailwindcss-animate";
+import typoPlugin from "@tailwindcss/typography";
 
 const config = {
     darkMode: ["class"],
@@ -94,7 +95,7 @@ const config = {
             },
         },
     },
-    plugins: [plugin],
+    plugins: [plugin, typoPlugin],
 } satisfies Config;
 
 export default config;
