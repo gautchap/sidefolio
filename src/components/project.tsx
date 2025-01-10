@@ -3,7 +3,6 @@ import type { Project } from "@/types/project";
 import Image, { type StaticImageData } from "next/image";
 import { useState } from "react";
 import { Heading } from "@/components/ui/heading";
-import { Paragraph } from "@/components/ui/paragraph";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Github, ArrowRight } from "lucide-react";
@@ -73,7 +72,6 @@ export const SingleProject = ({ project }: { project: Project }) => {
                         <Github className="size-4 shrink-0" />
                         <span className="text-sm ">Repo</span>
                     </a>
-                    {/* <Paragraph className="mt-4 max-w-xl">{project.description}</Paragraph> */}
                 </div>
             ) : null}
             <div className="prose prose-sm max-w-none text-neutral-600 md:prose-base">{project?.content}</div>

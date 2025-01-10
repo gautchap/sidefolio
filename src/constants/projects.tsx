@@ -24,9 +24,9 @@ export const projects = [
                     tâche.
                 </p>
                 <p>
-                    Projet d'une durée de 1 an, en collaboration avec une équipe de 4 personnes, sur le développement
-                    d'une solution de recherche de professionnels à l’échelle nationale, authentication, la mise en
-                    place un système de prise de rendez-vous entre professionnels.
+                    Projet d&apos;une durée de 1 an, en collaboration avec une équipe de 4 personnes, sur le
+                    développement d&apos;une solution de recherche de professionnels à l’échelle nationale,
+                    authentication, la mise en place un système de prise de rendez-vous entre professionnels.
                 </p>
             </div>
         ),
@@ -43,10 +43,13 @@ export const projects = [
         slug: "ecom",
         content: (
             <div>
-                <p>Projet de fin d'étude e-commerce avec boutique en ligne, gestion de panier, authentification.</p>
                 <p>
-                    Projet full stack (CRUD) d'une durée de 3 mois, mise en place d'une boutique en ligne, gestion de
-                    panier, authentication, espace admin pour la gestion des produits, des commandes, des utilisateurs.
+                    Projet de fin d&apos;étude e-commerce avec boutique en ligne, gestion de panier, authentification.
+                </p>
+                <p>
+                    Projet full stack (CRUD) d&apos;une durée de 3 mois, mise en place d&apos;une boutique en ligne,
+                    gestion de panier, authentication, espace admin pour la gestion des produits, des commandes, des
+                    utilisateurs.
                 </p>
             </div>
         ),
