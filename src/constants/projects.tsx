@@ -11,7 +11,7 @@ export const projects = [
         href: "https://www.resobseques.fr",
         title: "Résobsèques",
         id: "project-1",
-        description: "Ecommerce application for the end-of-course project.",
+        description: "Application SaaS pour le secteur funéraire.",
         thumbnail: resobseques,
         images: [resobseques],
         stack: ["React", "Nextjs", "BootStrap", "Sass"],
@@ -19,18 +19,15 @@ export const projects = [
         content: (
             <div>
                 <p>
-                    Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-                    est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-                    cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-                    ut culpa et.{" "}
+                    Projet visant à établir un lien entre les professionnels du funéraire (pompes funèbres, funérarium,
+                    crématorium, …) pour soulager les collectivités territoriales et les services publics de cette
+                    tâche.
                 </p>
                 <p>
-                    Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-                    exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-                    proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-                    reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-                    enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-                </p>{" "}
+                    Projet d'une durée de 1 an, en collaboration avec une équipe de 4 personnes, sur le développement
+                    d'une solution de recherche de professionnels à l’échelle nationale, authentication, la mise en
+                    place un système de prise de rendez-vous entre professionnels.
+                </p>
             </div>
         ),
     },
@@ -46,19 +43,11 @@ export const projects = [
         slug: "ecom",
         content: (
             <div>
+                <p>Projet de fin d'étude e-commerce avec boutique en ligne, gestion de panier, authentification.</p>
                 <p>
-                    Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-                    est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-                    cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-                    ut culpa et.{" "}
+                    Projet full stack (CRUD) d'une durée de 3 mois, mise en place d'une boutique en ligne, gestion de
+                    panier, authentication, espace admin pour la gestion des produits, des commandes, des utilisateurs.
                 </p>
-                <p>
-                    Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-                    exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-                    proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-                    reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-                    enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-                </p>{" "}
             </div>
         ),
     },
@@ -74,46 +63,22 @@ export const projects = [
         slug: "boilerplate",
         content: (
             <div>
-                <p>
-                    Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-                    est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-                    cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-                    ut culpa et.{" "}
-                </p>
-                <p>
-                    Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-                    exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-                    proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-                    reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-                    enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-                </p>{" "}
+                <p>En construction 🚧</p>
             </div>
         ),
     },
     {
-        href: "https://gomoonbeam.com",
+        href: "/",
         title: "Restaurant Saas",
         id: "project-1",
-        description: "Never write from scratch again with Moonbeam, your AI first writing tool",
+        description: "Restaurant SaaS application to manage your restaurant with a 2D floor plan.",
         thumbnail: about,
         images: [about, about],
         stack: ["React", "Nextjs", "Tailwindcss", "Motion", "Stripe", "AdonisJs", "PostgreSQL"],
         slug: "restaurant",
         content: (
             <div>
-                <p>
-                    Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-                    est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-                    cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-                    ut culpa et.{" "}
-                </p>
-                <p>
-                    Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-                    exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-                    proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-                    reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-                    enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-                </p>{" "}
+                <p>En construction 🚧</p>
             </div>
         ),
     },
@@ -129,49 +94,8 @@ export const projects = [
         slug: "tunetracer",
         content: (
             <div>
-                <p>
-                    Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-                    est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-                    cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-                    ut culpa et.{" "}
-                </p>
-                <p>
-                    Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-                    exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-                    proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-                    reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-                    enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-                </p>{" "}
+                <p>En construction 🚧</p>
             </div>
         ),
     },
-    // {
-    //     href: "https://tailwindmasterkit.com",
-    //     title: "Tailwind Master Kit",
-    //     id: "project-1",
-    //     repo: "https://github.com/gautchap/next-boilerplate",
-    //     description:
-    //         "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    //     thumbnail: about,
-    //     images: [about, about],
-    //     stack: ["Nextjs", "Tailwindcss"],
-    //     slug: "tailwindmasterkit",
-    //     content: (
-    //         <div>
-    //             <p>
-    //                 Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco dolore nulla amet tempor sunt
-    //                 est ipsum. Dolor laborum eiusmod cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-    //                 cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris non cupidatat duis esse velit
-    //                 ut culpa et.{" "}
-    //             </p>
-    //             <p>
-    //                 Exercitation pariatur enim occaecat adipisicing nostrud adipisicing Lorem tempor ullamco
-    //                 exercitation quis et dolor sint. Adipisicing sunt sit aute fugiat incididunt nostrud consequat
-    //                 proident fugiat id. Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-    //                 reprehenderit. Cillum Lorem veniam eu magna exercitation. Reprehenderit adipisicing minim et officia
-    //                 enim et veniam Lorem excepteur velit adipisicing et Lorem magna.
-    //             </p>{" "}
-    //         </div>
-    //     ),
-    // },
 ] satisfies Project[];

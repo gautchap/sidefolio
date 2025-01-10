@@ -11,8 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     const t = await getTranslations({ locale, namespace: "AboutPage" });
     return {
         title: t("title"),
-        description:
-            "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+        description: "Gauthier Chapon about",
     };
 }
 
@@ -53,13 +52,47 @@ export default async function AboutPage() {
                 </div>
 
                 <div className="max-w-4xl">
-                    <Paragraph className=" mt-4">{t("paragraph-1")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-2")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-3")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-4")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-5")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-6")}</Paragraph>
-                    <Paragraph className=" mt-4">{t("paragraph-7")}</Paragraph>
+                    <Paragraph className=" mt-4">{t("description")}</Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt officia asperiores impedit
+                        facilis dolore dolorem reiciendis provident repudiandae ullam! Quia dolores, id voluptatum totam
+                        repellat perspiciatis mollitia reiciendis nesciunt suscipit. Illum aut illo suscipit explicabo
+                        minima, corrupti ipsa velit dolor exercitationem veritatis nisi laudantium dolorem tempore quas
+                        maiores doloremque est ullam, perferendis expedita, iusto odio ad tenetur fuga facilis? Itaque.
+                    </Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, perspiciatis. Non molestiae
+                        minus mollitia error modi nesciunt quis culpa fugit, ex tempore, fugiat esse fuga dicta
+                        cupiditate consequatur. Possimus, officiis? Corporis, explicabo. Assumenda totam nobis neque
+                        minus cum hic corrupti, velit quod nulla fugit consequatur ipsa architecto ipsum cumque sequi
+                        tenetur impedit nostrum. Ullam quasi expedita ducimus nam a possimus?
+                    </Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, neque quo. Distinctio dolores
+                        vero iste voluptatibus omnis blanditiis, eos provident, consectetur suscipit alias recusandae
+                        perferendis mollitia. In fuga architecto laboriosam! Qui ullam totam saepe. Ratione odio est
+                        dolore quaerat, maxime blanditiis atque in aperiam modi expedita facere, fugit molestias animi
+                        tenetur, alias iste pariatur! Voluptatum suscipit repellendus veritatis molestiae a!
+                    </Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat dicta commodi optio sint
+                        quis ipsam at, ullam incidunt qui fugit, tempora laudantium officiis voluptas nam illo. Officia,
+                        architecto sed. Placeat repellat minus soluta dignissimos cumque? Mollitia architecto error
+                        officiis voluptate accusantium quasi fuga, repudiandae facilis tempore, aut vero blanditiis
+                        voluptatem eaque consequuntur rem ipsa eos neque tempora assumenda! Sunt.
+                    </Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet voluptate
+                        necessitatibus quam veniam hic odit. Fugiat delectus maxime in ab minima ducimus nostrum cum ad,
+                        unde alias! Corporis, inventore. Illo corporis culpa dolore voluptatem, dicta ipsum ducimus ad
+                        necessitatibus eveniet libero rem excepturi maiores adipisci reiciendis dignissimos nobis
+                        commodi dolorum omnis veritatis perferendis corrupti. Nostrum illo consequuntur culpa harum.
+                    </Paragraph>
+                    <Paragraph className=" mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ab doloremque blanditiis?
+                        Excepturi vitae rem aperiam adipisci praesentium, autem fugiat magni iste, tenetur porro totam
+                        voluptatibus labore vero eius asperiores.
+                    </Paragraph>
                 </div>
             </div>
         </Container>

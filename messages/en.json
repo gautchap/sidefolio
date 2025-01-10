@@ -5,26 +5,34 @@
         "about": "About",
         "projects": "Projects",
         "contact": "Contact",
+        "blog": "Blog",
         "lang": "Change language",
         "socials": "Socials"
     },
     "HomePage": {
         "title": "Home",
         "subtitle": "Hello there! I'm Gauthier",
-        "description": "I'm a full-stack developer that loves building products and web apps that can impact millions of lives",
+        "description": "I'm a full stack developer with a passion for creating interactive and responsive applications",
         "working": "What I've been working on",
-        "description2": "I'm a senior software engineer with 7 years of experience building scalable web apps that are performance optimized and good looking."
+        "description2": "I'm a junior software engineer with a RNCP 6 certificatiob and 1 year of experience building scalable web apps that are performance optimized and aesthetics."
     },
     "AboutPage": {
         "title": "About",
         "subtitle": "About Me",
-        "description": "I'm a full-stack developer that loves building products and web apps that can impact millions of lives. I'm currently working on a few projects that I'm really excited about. I'm always looking for new opportunities to work on projects that can make a difference in the world.",
+        "description": "I'm a full stack developer with a passion for creating interactive and responsive applications. I'm currently working on a few projects that I'm really excited about. I'm looking for new opportunities to work on projects.",
         "contact": "Contact me"
     },
     "ProjectsPage": {
         "title": "Projects",
         "subtitle": "What I've been working on",
         "description": "I've worked on a few projects that I'm really proud of. Here are a few of them.",
+        "contact": "Contact me",
+        "preview": "Live Preview"
+    },
+    "BlogPage": {
+        "title": "Blog",
+        "subtitle": "I write about technology",
+        "description": "I occasionally write about my experiences as a developer, design trends, and other topics related to tech and design. Here are a few of my latest posts.",
         "contact": "Contact me"
     },
     "Stack": {

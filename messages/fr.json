@@ -5,27 +5,35 @@
         "about": "À propos",
         "projects": "Projets",
         "contact": "Contact",
+        "blog": "Blog",
         "lang": "Changer la langue",
         "socials": "Réseaux"
     },
     "HomePage": {
         "title": "Accueil",
         "subtitle": "Bonjour! je suis Gauthier",
-        "description": "Je suis un développeur full-stack qui adore construire des produits et des applications web qui peuvent impacter des millions de vies",
-        "description2": "Je suis un ingénieur logiciel senior avec 7 ans d'expérience dans la construction d'applications web évolutives, optimisées en termes de performance et d'esthétique.",
+        "description": "Je suis un développeur full stack passionné par la création d'applications interactives et réactives",
+        "description2": "Je suis un ingénieur logiciel junior avec un Bac+3 et 1 an d'expérience dans la construction d'applications web, optimisées en termes de performance et d'esthétique.",
         "working": "Ce sur quoi j'ai travaillé"
     },
     "AboutPage": {
         "title": "À propos",
         "subtitle": "À propos de moi",
-        "description": "I'm a full-stack developer that loves building products and web apps that can impact millions of lives. I'm currently working on a few projects that I'm really excited about. I'm always looking for new opportunities to work on projects that can make a difference in the world.",
+        "description": "Je suis un développeur full stack passionné par la création d'applications interactives et réactives. Je travaille actuellement sur quelques projets qui me passionnent. Je suis à la recherche de nouvelles opportunités pour travailler sur des projets.",
         "contact": "Contact me"
     },
     "ProjectsPage": {
         "title": "Projets",
         "subtitle": "Ce sur quoi j'ai travaillé",
         "description": "J'ai travaillé sur quelques projets dont je suis vraiment fier. En voici quelques-uns.",
-        "contact": "Contactez-moi"
+        "contact": "Contactez-moi",
+        "preview": "Aperçu"
+    },
+    "BlogPage": {
+        "title": "Blog",
+        "subtitle": "J'écris sur la technologie",
+        "description": "I occasionally write about my experiences as a developer, design trends, and other topics related to tech and design. Here are a few of my latest posts.",
+        "contact": "Contact me"
     },
     "Stack": {
         "title": "Compétences"
