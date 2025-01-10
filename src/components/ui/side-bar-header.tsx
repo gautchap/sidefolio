@@ -10,7 +10,7 @@ export const SidebarHeader = ({ status }: { status: string }) => {
                 height="40"
                 width="40"
                 quality="100"
-                className="shrink-0 rounded-full object-cover object-top"
+                className="shrink-0 object-cover object-top"
             />
             <div className="flex flex-col text-sm">
                 <p className="font-bold text-primary">Gauthier Chapon</p>

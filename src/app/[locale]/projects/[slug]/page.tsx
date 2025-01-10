@@ -18,8 +18,7 @@ export async function generateMetadata({ params }: Props) {
           }
         : {
               title: "Projects | John Doe",
-              description:
-                  "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+              description: "Gauthier Chapon projects",
           };
 }
 
@@ -32,7 +31,7 @@ export default async function SingleProjectPage({ params }: Props) {
     }
     return (
         <Container>
-            <SingleProject product={product} />
+            <SingleProject project={product} />
         </Container>
     );
 }

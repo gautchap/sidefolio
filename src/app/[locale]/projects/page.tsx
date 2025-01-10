@@ -8,8 +8,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     const t = await getTranslations({ locale, namespace: "ProjectsPage" });
     return {
         title: t("title"),
-        description:
-            "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+        description: "Gauthier Chapon projects",
     };
 }
 
